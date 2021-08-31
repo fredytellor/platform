@@ -13,7 +13,6 @@ const IconMenu = (props) => {
     }
     return (<img
         src={currentIcon}
-        // src={name == 'home' ? homeIcon : ""}
         alt={`icon ${name}`}
     />);
 };
