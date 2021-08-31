@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'gotham-medium';
+    src: url('/src/assets/fonts/Gotham-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  } 
+  
+h1{
+font-size: 30px;
+font-family: "gotham-medium";
+}
