@@ -1,10 +1,16 @@
 import Titles from '../Atoms/Titles';
+import SearchInput from '../Atoms/SearchInput';
+import Logo from '../Atoms/Logo';
+import IconMenu from '../Atoms/IconMenu';
+
 
 function App() {
   return (
     <div className="App">
-      <Titles text="Hola mundo cruel!!!!!"/>
-      <h2>mundo!!</h2>
+      <Logo />
+      <Titles text="Hola mundo cruel!!!!!" />
+      <SearchInput placeholderText="Search and find" />
+      <IconMenu name="home"/>
     </div>
   );
 }

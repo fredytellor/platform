@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('/src/assets/fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  } 
+
+input{
+    height: 50px;
+    width: 200px;
+    color:#9D9BB6;
+    font-family: "Nunito-Regular";
+    font-size: 20px;
+    background-color: #F5F5FA;
+    border:none;
+}
