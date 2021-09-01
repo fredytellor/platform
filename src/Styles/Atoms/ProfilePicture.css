@@ -1,6 +1,14 @@
 .profile-pic{
-    height: 60px;
+    height: 60px;    
     object-fit: contain;
     position: relative;
     margin: 0px;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    align-self: center;
+}
+
+.profile-pic:hover{
+    transform: scale(1.25) rotate(1turn);
 }

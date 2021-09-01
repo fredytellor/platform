@@ -1,5 +1,7 @@
 import React from "react";
-import profilePic from "../assets/static/Picture@3x.png"
+import profilePic from "../assets/static/Picture@3x.png";
+
+import "../Styles/Atoms/ProfilePicture.css"
 
 const ProfilePicture = () => {
     return (
