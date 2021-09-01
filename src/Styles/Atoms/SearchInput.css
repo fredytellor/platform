@@ -5,12 +5,27 @@
     font-style: normal;
   } 
 
+.search-input-div{
+  height: 10%;
+  margin-top: 15px; 
+}
+
+.magnify-icon{
+  height: 20px;
+  width: 25px;
+  object-fit: contain;
+  position: relative;
+  left: -40px;
+}
+
 input{
-    height: 50px;
+    height: 60px;
     width: 200px;
     color:#9D9BB6;
     font-family: "Nunito-Regular";
     font-size: 20px;
     background-color: #F5F5FA;
     border:none;
+    margin-left: 30px;
+    padding-right: 40px;
 }

@@ -1,0 +1,11 @@
+.myheader-div{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;   
+    justify-content: space-between; 
+}
+
