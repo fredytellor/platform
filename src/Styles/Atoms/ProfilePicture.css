@@ -1,0 +1,6 @@
+.profile-pic{
+    height: 60px;
+    object-fit: contain;
+    position: relative;
+    margin: 0px;
+}

@@ -1,0 +1,14 @@
+.arroicon-div{    
+    /* left: -20px; */
+    left: -20px;
+    align-self: center;
+    position: relative;
+}
+
+.arrow-img{
+    height: 30px;
+    width: 50px;
+    object-fit: contain;
+    left: 0px;
+    align-items: center;
+}

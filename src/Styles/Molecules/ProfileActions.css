@@ -1,0 +1,36 @@
+.profile-actions-div{
+    display: flex;
+}
+
+.profile-actions-add-div{
+    height: 70px;
+    width: 100px;
+    background-color: #3D83FF;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    margin-right: 25px;
+    justify-content: center;
+    border-radius: 25px;
+    font-family: "gotham-medium";
+    align-content: center;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.profile-actions-add-div:hover{
+    background-color:#FE9B00;
+}
+
+.profile-actions-img{ 
+margin-top: 25px; 
+height: 40px;
+width: 50px;
+object-fit: contain;
+left: 0px;
+cursor: pointer;
+}
