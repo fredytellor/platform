@@ -5,7 +5,7 @@ import "../Styles/Atoms/ProfilePicture.css"
 
 const ProfilePicture = () => {
     return (
-        <img className="profile-pic" src={profilePic} alt="profile picture" />
+        <img className="profile-pic" src={profilePic} alt="profile" />
     );
 }
 

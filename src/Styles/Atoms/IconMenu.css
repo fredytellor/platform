@@ -1,0 +1,58 @@
+.iconmenu-div{
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 7px;
+    background-color:transparent;
+    transition: 0.1s;
+    box-sizing: border-box;
+}
+
+.iconmenu-div-bold{
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 7px;
+    background-color:#005EFF;
+    transition: 0.1s;
+    box-sizing: border-box;
+}
+
+.iconmenu-img{
+    height: 30px;   
+    width: 30px; 
+    object-fit: contain;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    align-self: center;    
+}
+
+
+.iconmenu-img-bold{
+    height: 30px;   
+    width: 30px; 
+    object-fit: contain;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    align-self: center;    
+}
+
+.iconmenu-img:hover{
+    transform: scale(1.15); 
+}
+
+.iconmenu-div:hover .iconmenu-img{
+    transform: scale(1.15); 
+  }
+
+.iconmenu-div:hover{
+    background-color: #005EFF;
+}
