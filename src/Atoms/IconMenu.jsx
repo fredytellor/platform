@@ -5,7 +5,7 @@ import appsIcon from "../assets/static/menu/apps-icon.png";
 import paperIcon from "../assets/static/menu/paper-icon.png";
 import statsIcon from "../assets/static/menu/stats-icon.png";
 import chatIcon from "../assets/static/menu/chat-icon.png";
-// import menuIcon from "../assets/static/menu/menu-icon-bold.png";
+import menuIconBold from "../assets/static/menu/menu-icon-bold.png";
 import homeBoldIcon from "../assets/static/menu/home-icon-bold.png";
 import appsBoldIcon from "../assets/static/menu/apps-icon-bold.png";
 import paperBoldIcon from "../assets/static/menu/paper-icon-bold.png";
@@ -42,13 +42,9 @@ const IconMenu = (props) => {
             break;
         default:
             currentIcon = menuIcon;
-            currentBoldIcon = homeBoldIcon;
+            currentBoldIcon = menuIconBold;
             break;
     }
-
-    const handleMouseEnter = () => {
-        isBold = !isBold;
-    };
 
     return (
         <div className={isActive ? "iconmenu-div-bold" : "iconmenu-div"}>
@@ -56,7 +52,7 @@ const IconMenu = (props) => {
                 className={isActive ? "iconmenu-img-bold" : "iconmenu-img"}
                 src={isActive ? currentBoldIcon : currentIcon}
                 alt={`icon ${name}`}
-                onMouseEnter={handleMouseEnter}
+                onClick={() => props.selectItem()}
             />
         </div>);
 };
