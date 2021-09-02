@@ -1,0 +1,8 @@
+.iconbutton-img{ 
+    margin-top: 25px; 
+    height: 40px;
+    width: 50px;
+    object-fit: contain;
+    left: 0px;
+    cursor: pointer;
+}

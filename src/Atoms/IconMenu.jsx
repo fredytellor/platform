@@ -16,7 +16,6 @@ import "../Styles/Atoms/IconMenu.css";
 
 const IconMenu = (props) => {
     const { name, isActive } = props;
-    let isBold = false;
     let currentIcon = "";
     let currentBoldIcon = "";
     switch (name) {
