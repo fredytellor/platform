@@ -1,0 +1,10 @@
+.card-div{
+    width: 220px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;    
+    display: inline;
+    justify-content: space-evenly;
+    box-sizing: border-box;    
+}
