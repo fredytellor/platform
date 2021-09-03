@@ -10,9 +10,7 @@ const ProfileActions = () => {
     return (
         <>
             <div className="profile-actions-div">
-                <TextButton textContent="+ Add"/>
-                {/* <img className="profile-actions-img" src={notificationBell} alt="notification bell icon" />
-                <img className="profile-actions-img" src={chatImg} alt="chat icon" /> */}
+                <TextButton textContent="+ ADD"/>                
                 <IconButton imgSrc={notificationBell}/>
                 <IconButton imgSrc={chatImg}/>
             </div>

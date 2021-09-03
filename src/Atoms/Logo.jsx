@@ -4,7 +4,7 @@ import myLogo from "../assets/static/logo@3x.png";
 import "../Styles/Atoms/Logo.css";
 
 const Logo = () => {
-    return (<img src={myLogo} alt="Logo"/>);
+    return (<img className="mylogo-img" src={myLogo} alt="Logo"/>);
 };
 
 export default Logo;

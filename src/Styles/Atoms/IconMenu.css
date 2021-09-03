@@ -1,10 +1,10 @@
 .iconmenu-div{
     width: 80px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 20px;
-    padding-top: 7px;
+    padding-top: 12px;
     background-color:transparent;
     transition: 0.1s;
     box-sizing: border-box;
@@ -12,11 +12,11 @@
 
 .iconmenu-div-bold{
     width: 80px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 20px;
-    padding-top: 7px;
+    padding-top: 12px;
     background-color:#005EFF;
     transition: 0.1s;
     box-sizing: border-box;

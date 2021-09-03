@@ -1,3 +1,7 @@
 .profile-div{
     display: flex;
+    width: 350px;    
+    margin-right: 10px; 
+    justify-content: center;
+    /* background-color: lavenderblush; */
 }

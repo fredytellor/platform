@@ -1,17 +1,17 @@
 
 .textbutton-div{
-    height: 70px;
+    height: 60px;
     width: 100px;
     background-color: #3D83FF;
     color: white;
     display: block;
-    margin-top: 10px;
-    margin-right: 25px;
+    margin-top: 15px;
+    margin-right: -50px;
     justify-content: center;
     border-radius: 25px;
     font-family: "gotham-medium";
     align-content: center;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 15px;
     font-size: 20px;
     box-sizing: border-box;

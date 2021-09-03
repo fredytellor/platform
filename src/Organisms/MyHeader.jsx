@@ -10,10 +10,10 @@ const MyHeader = () => {
     return (
         <>
             <div className="myheader-div">
-                <Logo/>
-                <SearchInput placeholderText="Search and find"/>
-                <ProfileActions/>
-                <Profile/>
+                <Logo className="myheader-logo"/>
+                <SearchInput className="myheader-searchinput" placeholderText="Search and find"/>
+                <ProfileActions className="myheader-profileactions"/>
+                <Profile className="myheader-profile"/>
             </div>
         </>
     );
