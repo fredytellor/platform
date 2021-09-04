@@ -1,0 +1,6 @@
+.dashboardimage-img{
+    height: 25vh;    
+    object-fit: contain;
+    position: relative;
+    bottom: 5vh;
+}

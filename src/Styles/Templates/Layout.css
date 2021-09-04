@@ -1,5 +1,7 @@
 .layout-children{
     width: auto;
-    margin-left:80px;
-    /* background-color: lawngreen; */
+    margin-left:70px;
+    background-color: #F5F5FA;  
+    display: flex;  
+    padding: 50px 180px 10px 120px;
 }

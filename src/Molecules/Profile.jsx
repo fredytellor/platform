@@ -9,7 +9,7 @@ const Profile = () => {
     return (
         <>
             <div className="profile-div">
-                <Subtitle contentText="Fredy Tello" />
+                <Subtitle contentText="Clarence Russell" />
                 <ProfilePicture />
                 <ArrowIcon />
             </div>
