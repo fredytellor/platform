@@ -3,5 +3,6 @@
     margin-left:70px;
     background-color: #F5F5FA;  
     display: flex;  
-    padding: 50px 180px 10px 120px;
+    padding: 50px 180px 10px 120px;    
+    flex-direction: column;
 }
