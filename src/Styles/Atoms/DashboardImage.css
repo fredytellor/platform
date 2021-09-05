@@ -1,6 +1,24 @@
-.dashboardimage-img{
-    height: 27vh;    
-    object-fit: contain;
-    position: relative;
-    bottom: 8vh;
+/* Mobile */
+
+@media(max-width:760px) {
+    .dashboardimage-img {
+        height: 30vh;
+        object-fit: contain;
+        position: relative;
+        bottom: 12vh;
+        align-content: center;
+        justify-items: center;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .dashboardimage-img {
+        height: 27vh;
+        object-fit: contain;
+        position: relative;
+        bottom: 8vh;
+    }
 }

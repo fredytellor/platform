@@ -1,3 +1,14 @@
-.profile-actions-div{
-    display: flex;
+
+/* Mobile */
+@media(max-width:760px){
+    .profile-actions-div{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+/* Desktop */
+@media(min-width:761px){
+    .profile-actions-div{
+        display: flex;
+    }
 }

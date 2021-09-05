@@ -1,35 +1,56 @@
-.subtitle-div{       
-    position: relative;     
-    margin-top: 0.5vh;   
-    margin-left: 0.6vw;
-    display: flex;
-}
-
-.span-subtitle{
-    font-family: "Nunito-Regular";
-    font-size: 2.2vh;
-    margin-right: 10px;
-    margin-left: 10px;
-    color: #3E3A6F;
-}
-
-.subtitle-span-progress{
-    font-size: 1.8vh;
-    font-family: "gilroy";
-    font-weight:600;
-    /* background-color: teal; */
-    color: white;    
-    align-self: center; 
+/* Mobile */
+@media(max-width:760px){
+    .span-subtitle{
+        /* font-family: "Nunito-Regular";
+        font-size: 2.2vh;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: #3E3A6F; */
+        display: none;
     }
+}
 
-    .subtitle-span-hours{
-        font-size: 3vh;
+
+
+/* Desktop */
+@media(min-width:761px){
+
+
+
+    .subtitle-div{       
+        position: relative;     
+        margin-top: 0.5vh;   
+        margin-left: 0.6vw;
+        display: flex;
+    }
+    
+    .span-subtitle{
+        font-family: "Nunito-Regular";
+        font-size: 2.2vh;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: #3E3A6F;
+    }
+    
+    .subtitle-span-progress{
+        font-size: 1.8vh;
         font-family: "gilroy";
         font-weight:600;
         /* background-color: teal; */
         color: white;    
         align-self: center; 
-        margin-bottom: -1.2vh;
-        margin-left: -0.5vh;
         }
-
+    
+        .subtitle-span-hours{
+            font-size: 3vh;
+            font-family: "gilroy";
+            font-weight:600;
+            /* background-color: teal; */
+            color: white;    
+            align-self: center; 
+            margin-bottom: -1.2vh;
+            margin-left: -0.5vh;
+            }
+    
+    
+}

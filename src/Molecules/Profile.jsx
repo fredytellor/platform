@@ -9,9 +9,9 @@ const Profile = () => {
     return (
         <>
             <div className="profile-div">
-                <Subtitle contentText="Clarence Russell" />
-                <ProfilePicture />
-                <ArrowIcon />
+                <Subtitle className="profile-name" contentText="Clarence Russell" />
+                <ProfilePicture className="profile-picture"/>
+                <ArrowIcon className="profile-arrow"/>
             </div>
         </>
     );

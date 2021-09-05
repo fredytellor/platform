@@ -1,12 +1,32 @@
-.arroicon-div{        
-    align-self: center;
-    position: relative;
-    margin-left: 0.75vw;
+/* Mobile */
+@media(max-width:760px){
+    .arroicon-div{  
+        display: none;      
+        /* align-self: center;
+        position: relative;
+        margin-left: 0.75vw; */
+    }
+    
+    .arrow-img{
+        /* height: 2vh;
+        width: 2vh;
+        object-fit: contain;
+        left: 0px; */
+    }
 }
-
-.arrow-img{
-    height: 2vh;
-    width: 2vh;
-    object-fit: contain;
-    left: 0px;
+/* Desktop */
+@media(min-width:761px){
+    .arroicon-div{        
+        align-self: center;
+        position: relative;
+        margin-left: 0.75vw;
+    }
+    
+    .arrow-img{
+        height: 2vh;
+        width: 2vh;
+        object-fit: contain;
+        left: 0px;
+    }
+    
 }
