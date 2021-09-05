@@ -1,0 +1,30 @@
+.progressitemtext-div{
+    color:#9C9AB5;
+    font-family: "gotham-bold";
+    /* background-color: rosybrown ; */
+    width: min-content;
+    flex-wrap: row wrap;
+    align-self: center;
+    margin-left: 1.5vw;
+}
+
+.progressitemtext-h2{
+    font-size: 2.3vh;
+    font-family: "gotham-bold";
+}
+
+
+.progressitemtext-highlight-div{
+    color:white;
+    font-family: "gotham-bold";
+    width: min-content;
+    flex-wrap: row wrap;
+    align-self: center;
+    margin-left: 1.5vw;
+}
+
+.progressitemtext-highlight-h2{
+    font-size: 2.3vh;
+    color:white;
+    font-family: "gotham-bold";
+}

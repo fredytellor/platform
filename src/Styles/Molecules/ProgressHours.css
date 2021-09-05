@@ -6,21 +6,16 @@
     margin-top: 2.5vh;
     align-self: center;
     justify-content: center;
-    display: flex;
-    flex-direction: row;
+    display: flex;    
     justify-content: space-around; 
     box-sizing: border-box;
     padding-left: 2vh;
     padding-right: 2vh;
-    
 }
 
 .progresshours-side-div{
     display: flex;
     flex-direction: column;
-    /* background-color: thistle; */
-    /* width: max-content; */
-    /* margin: 3px; */
 }
 
 
@@ -33,14 +28,11 @@
 .progresshours-side-hours{
     display: flex;
     margin-top: -4vh;
-    /* margin-left: 1.5vh; */
     flex-direction: row;
     height: min-content;
     align-self: flex-start;
     align-content: flex-start;
     align-items: flex-start;
-    justify-content: start;
     justify-self: start;
     justify-items: start;
-    /* background-color: tomato; */
 }
