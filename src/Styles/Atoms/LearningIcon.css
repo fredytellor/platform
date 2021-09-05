@@ -1,9 +1,8 @@
 .learningicon-img{
-    height: 30px;   
-    width: 30px; 
-    margin-right: 5px;
+    height: 3vh;   
+    width: 3vh; 
+    margin-right: 0.5vw;
     object-fit: contain;
     position: static;        
-    cursor: pointer;
     align-self: center;    
 }

@@ -1,0 +1,14 @@
+.todayeventtime-div{    
+    position: relative;   
+    padding-left: 32%;
+    padding-top: 9%;
+    color: #9D9BB6;
+}
+
+.todayeventtime-span{
+    font-family: "gilroy";
+    font-size: 2vh;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 900;
+}

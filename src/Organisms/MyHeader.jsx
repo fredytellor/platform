@@ -10,10 +10,12 @@ const MyHeader = () => {
     return (
         <>
             <div className="myheader-div">
-                <Logo className="myheader-logo"/>
-                <SearchInput className="myheader-searchinput" placeholderText="Search and find"/>
-                <ProfileActions className="myheader-profileactions"/>
-                <Profile className="myheader-profile"/>
+                <Logo className="myheader-logo" />
+                <SearchInput className="myheader-searchinput" placeholderText="Search and find" />
+                <div className="myheader-profile-div">
+                    <ProfileActions className="myheader-profileactions" />
+                    <Profile className="myheader-profile" />
+                </div>
             </div>
         </>
     );

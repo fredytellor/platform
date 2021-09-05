@@ -1,9 +1,9 @@
 .dashboardsubtitle-h1{
-    font-size: 30px;
-    font-family: "gotham-medium";
-    font-weight: 50;
+    font-size: 2.6vh;
+    font-family: "gotham-light";
+    font-weight: 300;
     color:white;
-    bottom: 22vh;
-    left: 15vw;
+    bottom: 27vh;
+    left: 16vw;
     position: relative;
     }

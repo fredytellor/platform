@@ -1,8 +1,9 @@
 .layout-children{
     width: auto;
-    margin-left:70px;
+    /* margin-left:70px; */
+    margin-left: 3.5vw;
     background-color: #F5F5FA;  
     display: flex;  
-    padding: 50px 180px 10px 120px;    
+    padding: 3.5vh 9.5vw 0 6vw;    
     flex-direction: column;
 }

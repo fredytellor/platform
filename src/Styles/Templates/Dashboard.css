@@ -1,8 +1,6 @@
 .dashboard-div{
     height: 40vh;
     width: 100%;
-    /* background-color: teal; */
-    /* padding: 50px 180px 10px 120px; */
     display: flex;
     flex-direction: column;
 }

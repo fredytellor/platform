@@ -1,7 +1,8 @@
 .mytitle-h1{
-font-size: 38px;
+font-size: 3.8vh;
 font-family: "gotham-medium";
 font-weight: 50;
 color: #103460;
 bottom: 0px;
+align-self: center;
 }

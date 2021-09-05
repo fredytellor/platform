@@ -1,14 +1,16 @@
 .learningsubtitle-div{
-    margin-top: 20px;    
-    position: relative;   
-    padding-left: 40px;
+    /* margin-top: 1.5vh;     */
+    position: absolute;   
+    /* padding-left: 0px; */
     color: #9D9BB6;
+    display: block;
+    margin-left: 1.6vw;
+    margin-bottom: 5vh;
+    /* background-color: lawngreen; */
 }
 
 .span-learnignsubtitle{
-    font-family: "Nunito-Regular";
-    font-size: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+    font-family: "gilroy";
+    font-size: 1.8vh;
     font-weight: 900;
 }

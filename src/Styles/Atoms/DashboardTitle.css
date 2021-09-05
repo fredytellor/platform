@@ -1,9 +1,9 @@
 .dashboardtitle-h1{
-    font-size: 38px;
+    font-size: 3.8vh;
     font-family: "gotham-medium";
     font-weight: 100;
     color:white;
-    bottom: 20vh;
-    left: 15vw;
+    bottom: 25vh;
+    left: 16vw;
     position: relative;
     }

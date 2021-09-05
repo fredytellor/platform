@@ -1,48 +1,47 @@
 .iconmenu-div{
-    width: 80px;
-    height: 60px;
+    width: 4vw;
+    height: 5vh;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 20px;
-    padding-top: 12px;
-    background-color:transparent;
+    padding-top: 2vh; 
+    margin-top: 0.5vh;
     transition: 0.1s;
-    box-sizing: border-box;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 .iconmenu-div-bold{
-    width: 80px;
-    height: 60px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    padding-top: 12px;
+    width: 4vw;
+    height: 5vh;
+    padding-top: 2vh;
     background-color:#005EFF;
     transition: 0.1s;
-    box-sizing: border-box;
 }
 
 .iconmenu-img{
-    height: 30px;   
-    width: 30px; 
+    height: 2.5vh;   
+    width: 4vw; 
     object-fit: contain;
     position: relative;
     transform: scale(1);
     transition: 0.5s;
     cursor: pointer;
-    align-self: center;    
+    align-self: center;   
 }
 
 
 .iconmenu-img-bold{
-    height: 30px;   
-    width: 30px; 
+    height: 2.5vh;   
+    width: 4vw;
     object-fit: contain;
     position: relative;
     transform: scale(1.1);
     transition: 0.5s;
     cursor: pointer;
-    align-self: center;    
 }
 
 .iconmenu-img:hover{

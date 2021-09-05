@@ -1,7 +1,7 @@
 .mylogo-img{
-    margin-left: 20px;
-    height: 100px;
-    width: 200px;
+    /* margin-left: 1vw; */
+    height: 10vh;
+    width: 12vw;
     object-fit: contain;
     left: 0px;
   }

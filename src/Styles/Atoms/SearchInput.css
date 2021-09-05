@@ -1,27 +1,36 @@
 .search-input-div{
-  margin-top:15px; 
-  margin-left: 300px;
-  margin-right: 50px;  
+  margin-top:1vh; 
+  margin-left: 15vw;
+  /* justify-content: center; */
+  /* background-color: teal; */
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
 
 .magnify-icon{
-  height: 20px;
-  width: 25px;
+  /* background-color: thistle; */
+  height: 4vh;
+  width: 2.5vh;
+  /* margin-top: 0.65vh; */
+  align-self: center;
   object-fit: contain;
   position: relative;
-  left: -90px;
+  left: -2.2vw;
 }
 
 input{
-    height: 60px;
-    width: 250px;
+    height: 5.5vh;
+    width: 15vw;
     color:#9D9BB6;
     font-family: "Nunito-Regular";
-    font-size: 20px;
+    font-size: 2vh;
     background-color: #F5F5FA;
     border:none;
     /* margin-left: 60px;
     margin-right: 50px; */
-    padding-right: 80px;
-    padding-left: 20px;
+    /* padding-right: 80px; */
+    padding-right: 4vw;
+    padding-left: 1vw;
+    /* padding-left: 20px; */
 }
