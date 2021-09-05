@@ -11,7 +11,7 @@ import "../Styles/Templates/Activities.css";
 const Activities = () => {
     return (
         <div className="activities-div">
-        <ActivityHeader />
+        <ActivityHeader title="Activity" />
         <ActivityCard iconSrc={followerIcon} leadText="You have new 5 followers including" highlight="Kathryn Crawford" otherHighlight="Piper Shaw"/>
         <ActivityCard iconSrc={eventsIcon} leadText="3 new events were added to your calendar"/>
         <ActivityCard iconSrc={assignmentsIcon} leadText="You have 3 pending readings to complete 🤓"/>

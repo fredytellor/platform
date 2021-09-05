@@ -1,0 +1,7 @@
+.progressheader-div{
+    display: flex;
+    /* background-color: teal; */
+    width: 50vw;
+    margin-left: 4vw;
+    margin-top: 1vh;
+}

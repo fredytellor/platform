@@ -5,10 +5,11 @@ import Divider from "../Atoms/Divider";
 import "../Styles/Molecules/ActivityHeader.css";
 import EventsSlideButton from "../Atoms/EventsSlideButton";
 
-const ActivityHeader = () => {
+const ActivityHeader = (props) => {
+    const {title}=props;
     return (
         <div className="activityheader-div">
-            <MyTitle text="Activity"/>
+            <MyTitle text={title}/>
             <Divider isActivity={true}/>
             <EventsSlideButton isActivity={true}/>
         </div>

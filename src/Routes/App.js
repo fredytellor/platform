@@ -4,6 +4,7 @@ import Layout from "../Templates/Layout";
 import Dashboard from "../Templates/Dashboard";
 import Events from "../Templates/Events";
 import Activities from "../Templates/Activities";
+import Progress from "../Templates/Progress";
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Dashboard />
           <Events />
           <Activities />
+          <Progress/>
         </Layout>
       </BrowserRouter>
     </div>
