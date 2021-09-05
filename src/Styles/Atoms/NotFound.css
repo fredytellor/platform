@@ -1,55 +1,125 @@
-.notfound-div{
-    background-color: #F5F5FA;
-    height: 20vh;
-    width: 80vw;
-    display: flex;
-}
-
-.notfound-div-texts{
-    background-color: #F5F5FA;
-    height: 20vh;
-    width: 80vw;
-}
-
-.notfound-h1{
-    font-size: 3.7vh;
-    font-family: "gilroy-bold";
-    font-weight: 600;
-    color: #103460;
-    align-self: center;
-    justify-content: center;    
-}
-
-.notfound-h2{
-    font-size: 3vh;
-    font-family: "gotham-medium";
-    font-weight: 50;
-    color: #103460;
-    bottom: 0px;
-    align-self: center;
-    margin-top: 0vh;  
-}
-
-.notfound-link-div{
-    background-color: #103460;
+/* mobile */
+@media(max-width:760px){
+ 
+    .notfound-div{
+        background-color: #F5F5FA;
+        height: 20vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .notfound-div-texts{
+        /* background-color: teal; */
+        height: 20vh;
+        width: 80vw;
+        
+    }
+    
+    .notfound-h1{
+        font-size: 3.7vh;
+        font-family: "gilroy-bold";
+        font-weight: 600;
+        color: #103460;
+        align-self: center;
+        margin-left:30vw;
+        width: max-content;
+        /* background-color: thistle; */
+    }
+    
+    .notfound-h2{
+        font-size: 3vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        bottom: 0px;
+        align-self: center;
+        margin-top: 0vh;  
+        margin-left:15vw;
+        width: max-content;
+    }
+    
+    .notfound-link-div{
+        background-color: #103460;
+        color: white;
+        height: max-content;
+        width: max-content;
+        align-self: center;
+        padding:1vh;
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .notfound-link-div:hover{
+        background-color: #3D83FF;
+        padding: 1.5vh;
+    }
+    
+    .notfound-link{
     color: white;
-    height: max-content;
-    width: max-content;
-    align-self: center;
-    padding:1vh;
-    border-radius: 10px;
-    transition: 0.5s;
-    cursor: pointer;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: 'gotham-medium';
+    }
 }
 
-.notfound-link-div:hover{
-    background-color: #3D83FF;
-    padding: 1.5vh;
-}
+/* Desktop */
+@media(min-width:761px){
 
-.notfound-link{
-color: white;
-font-size: 2.5vh;
-text-decoration: none;
-font-family: 'gotham-medium';
+    .notfound-div{
+        background-color: #F5F5FA;
+        height: 20vh;
+        width: 80vw;
+        display: flex;
+    }
+    
+    .notfound-div-texts{
+        background-color: #F5F5FA;
+        height: 20vh;
+        width: 80vw;
+    }
+    
+    .notfound-h1{
+        font-size: 3.7vh;
+        font-family: "gilroy-bold";
+        font-weight: 600;
+        color: #103460;
+        align-self: center;
+        justify-content: center;    
+    }
+    
+    .notfound-h2{
+        font-size: 3vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        bottom: 0px;
+        align-self: center;
+        margin-top: 0vh;  
+    }
+    
+    .notfound-link-div{
+        background-color: #103460;
+        color: white;
+        height: max-content;
+        width: max-content;
+        align-self: center;
+        padding:1vh;
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .notfound-link-div:hover{
+        background-color: #3D83FF;
+        padding: 1.5vh;
+    }
+    
+    .notfound-link{
+    color: white;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: 'gotham-medium';
+    }
 }
