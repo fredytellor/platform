@@ -5,7 +5,7 @@ import TodayEventImg from "../Atoms/TodayEventImg";
 import TodayEventTitle from "../Atoms/TodayEventTitle";
 
 const TodayActivityCard = (props) => {
-    const { pos, imgSrc, timeText, titleText } = props;
+    const { imgSrc, timeText, titleText } = props;
     return (
         <TodayEventCard>
             <TodayEventImg imgSrc={imgSrc} />

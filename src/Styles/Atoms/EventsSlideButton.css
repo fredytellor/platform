@@ -1,0 +1,31 @@
+.eventsslidebutton-div{
+    height: 4.5vh;
+    width: 6vh;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 17vh;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+.eventsslidebutton-div-right{
+    height: 4.5vh;
+    width: 6vh;
+    background-color: tomato;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 17vh;
+    margin-right: 1vw;
+    right: 35.5vw;
+    position: absolute;
+}
+
+.eventsslidebutton-img{
+    height: 2.5vh;
+    width: 2.5vh;
+    object-fit: contain;
+    align-items: center;    
+}
