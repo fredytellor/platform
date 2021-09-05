@@ -5,3 +5,10 @@
     margin-top: 3vh;
     margin-left: 1vw;
 }
+.divider-activity-div{
+    background-color: #E8E8ED;
+    width: 68vw;
+    height: 0.25vh;
+    margin-left: 1vw;
+    align-self: center;
+}

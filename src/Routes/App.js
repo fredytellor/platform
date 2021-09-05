@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import Layout from "../Templates/Layout";
 import Dashboard from "../Templates/Dashboard";
 import Events from "../Templates/Events";
-
+import Activities from "../Templates/Activities";
 
 
 
@@ -12,8 +12,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Layout>
-          <Dashboard/>
-          <Events/>
+          <Dashboard />
+          <Events />
+          <Activities />
         </Layout>
       </BrowserRouter>
     </div>

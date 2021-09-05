@@ -1,0 +1,22 @@
+.activitycardtitle-div{
+    /* background-color: thistle; */
+    height: min-content;
+    width: max-content;
+    align-self: center;
+}
+
+.activitycardtitle-h2{
+    color: #9D9BB6;
+    font-family: "Nunito-Regular";
+    font-weight: 400;    
+    margin-left: 1vw;
+    font-size: 2vh;
+}
+
+.activitycardtitle-highlight{
+    color: #1884FF;
+    font-family: "Nunito-Regular";
+    font-weight: 900;    
+    margin-left: 1vw;
+    font-size: 2vh;
+}

@@ -1,0 +1,24 @@
+.activityicon-div{
+    align-self: center;
+    /* background-color: yellow; */
+    margin-left: 1.5vw;
+}
+
+.activityicon-img{
+    height: 5vh;    
+    object-fit: contain;
+    position: relative;  
+}
+
+.activityicon-div-arrow{
+    align-self: center; 
+    right: 2vw;
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.activityicon-img-arrow{
+    height: 1.25vh;    
+    object-fit: contain;
+    position: relative;  
+}
