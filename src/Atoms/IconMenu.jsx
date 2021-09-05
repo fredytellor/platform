@@ -19,7 +19,7 @@ const IconMenu = (props) => {
     let currentIcon = "";
     let currentBoldIcon = "";
     switch (name) {
-        case "home":
+        case "":
             currentIcon = homeIcon;
             currentBoldIcon = homeBoldIcon;
             break;

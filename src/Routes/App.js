@@ -1,22 +1,18 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Layout from "../Templates/Layout";
-import Dashboard from "../Templates/Dashboard";
-import Events from "../Templates/Events";
-import Activities from "../Templates/Activities";
-import Progress from "../Templates/Progress";
-
-
+import Home from "../Pages/Home";
+import NotFound from "../Atoms/NotFound";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Layout>
-          <Dashboard />
-          <Events />
-          <Activities />
-          <Progress/>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route component={NotFound} />
+          </Switch>
         </Layout>
       </BrowserRouter>
     </div>
