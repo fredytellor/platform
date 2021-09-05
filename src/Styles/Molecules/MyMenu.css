@@ -1,7 +1,8 @@
 .mymenu-div{
     background-color: #3D83FF;
     width: 4vw;
-    height: 186vh;
+    /* height: 186vh; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     left: 0;    

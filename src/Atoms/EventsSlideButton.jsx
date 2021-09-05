@@ -5,10 +5,10 @@ import rigthArrow from "../assets/static/right-arrow.png";
 import "../Styles/Atoms/EventsSlideButton.css";
 
 const EventsSlideButton = (props) => {
-    const { isLeft,isActivity } = props;
+    const { isLeft, isActivity } = props;
     return (
-        <div className={isLeft?"eventsslidebutton-div": isActivity?"eventsslidebutton-div-activity":"eventsslidebutton-div-right"}>
-            <img className="eventsslidebutton-img" src={isLeft ? leftArrow : rigthArrow} alt={isLeft?"previus":"next"}/>
+        <div className={isLeft ? "eventsslidebutton-div" : isActivity ? "eventsslidebutton-div-activity" : "eventsslidebutton-div-right"} onClick={() => props.handleSlide()}>
+            <img className="eventsslidebutton-img" src={isLeft ? leftArrow : rigthArrow} alt={isLeft ? "previus" : "next"} />
         </div>
     );
 };

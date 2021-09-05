@@ -17,6 +17,13 @@
     position: absolute;
 }
 
+.activityicon-div-arrow-open{
+    align-self: center; 
+    right: 2vw;
+    transform: rotate(0deg);
+    position: absolute; 
+}
+
 .activityicon-img-arrow{
     height: 1.25vh;    
     object-fit: contain;

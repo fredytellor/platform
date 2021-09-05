@@ -2,10 +2,11 @@ import React from "react";
 
 import "../Styles/Atoms/EventsCard.css";
 
-const EventsCard = ({children}) => {
+const EventsCard = (props,) => {
+    const { index } = props;
     return (
-        <div className="eventscard-div">
-            {children}
+        <div className={`eventscard-div${index}`}>
+            {props.children}
         </div>
     );
 }

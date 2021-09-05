@@ -6,7 +6,7 @@ import "../Styles/Templates/Layout.css";
 
 const Layout = ({ children }) => {
     return (
-        <div className="App">
+        <div className="layout-div">
             <MyHeader />
             <div className="layout-children">            
                 {children}
