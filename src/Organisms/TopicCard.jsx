@@ -3,7 +3,7 @@ import Card from "../Atoms/Card";
 import LearningSubtitle from "../Atoms/LearningSubtitle";
 import LearningTopic from "../Molecules/LearningTopic";
 
-import "../Styles/organisms/TopicCard.css";
+import "../Styles/Organisms/TopicCard.css";
 
 const TopicCard = (props) => {
     const { subtitleText, topicIcon, topicText } = props;

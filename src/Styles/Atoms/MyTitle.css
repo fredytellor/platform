@@ -16,3 +16,21 @@ bottom: 0px;
 align-self: center;
 margin-top: -4vh;
 }
+
+.mytitle-h1-progress{
+    font-size: 3.7vh;
+    font-family: "gilroy-bold";
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    justify-content: center;    
+    }
+
+ .mytitle-h1-progress-hour{
+            font-size: 5.9vh;
+            font-family: "gilroy-bold";
+            font-weight: 600;
+            color: white;
+            align-self: center;
+            justify-content: center;    
+    }

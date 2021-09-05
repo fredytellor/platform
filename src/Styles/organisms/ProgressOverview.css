@@ -1,6 +1,8 @@
 .progressoverview-div{
     background-color: #192E7C;
-    height: 53vh;
+    height: 55vh;
     width: 30vw;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }

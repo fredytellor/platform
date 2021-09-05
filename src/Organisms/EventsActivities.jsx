@@ -1,7 +1,7 @@
 import React from "react";
 import TodayActivityCard from "../Molecules/TodayActivityCard";
 
-import "../Styles/organisms/EventsActivities.css";
+import "../Styles/Organisms/EventsActivities.css";
 
 const EventsActivities = (props) => {
     const {thumbImg}=props;
