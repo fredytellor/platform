@@ -1,8 +1,0 @@
-.learningtopic-div{
-    display: flex;
-    margin-top: 1vh;
-    flex-direction: row-reverse;
-    justify-content: center;
-    box-sizing: border-box;
-    /* background-color: khaki; */
-}

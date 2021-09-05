@@ -1,9 +1,0 @@
-.progresscard-div{
-    /* background-color: rgba(0, 0, 0, 0.1); */
-    height: 30vh;
-    width: 49vw;
-    margin-left: 4vw;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
