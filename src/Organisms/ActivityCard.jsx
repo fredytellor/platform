@@ -12,11 +12,11 @@ const ActivityCard = (props) => {
     const { iconSrc, leadText, highlight, otherHighlight } = props;
     return (
         <div className={isOpen ? "activitycard-div-open" : "activitycard-div"} onClick={() => setIsOpen(!isOpen)}>
-            <ActivityIcon iconSrc={iconSrc} />
-            <ActivityCardTitle text={leadText} />
-            {highlight !== undefined && <ActivityCardTitle isHighlight={true} text={highlight} />}
-            {otherHighlight !== undefined && <ActivityCardTitle text="and" />}
-            {highlight !== undefined && <ActivityCardTitle isHighlight={true} text={otherHighlight} />}
+            <ActivityIcon iconSrc={iconSrc} isOpen={isOpen} />
+            <ActivityCardTitle text={leadText} isOpen={isOpen} />
+            {highlight !== undefined && <ActivityCardTitle isHighlight={true} text={highlight} isOpen={isOpen} />}
+            {(otherHighlight !== undefined && isOpen !== true) && <ActivityCardTitle text="and" isOpen={isOpen} />}
+            {highlight !== undefined && <ActivityCardTitle isHighlight={true} text={otherHighlight} isOpen={isOpen} />}
             <ActivityIcon iconSrc={continueArrow} isArrow={true} isOpen={isOpen} />
         </div>
     );

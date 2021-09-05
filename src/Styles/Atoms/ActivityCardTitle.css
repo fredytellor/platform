@@ -5,6 +5,25 @@
     align-self: center;
 }
 
+.activitycardtitle-div-open{
+    height: min-content;
+    width: max-content;
+    align-self: center; 
+    position: absolute;
+    top: 2vh; 
+    left: 4vw; 
+}
+
+.activitycardtitle-div-open-highlight{
+    height: min-content;
+    width: max-content;
+    align-self: center; 
+    /* position: absolute; */
+    /* background-color: wheat; */
+    /* top: 2vh;  */
+    /* margin-left: 8vw;  */
+}
+
 .activitycardtitle-h2{
     color: #9D9BB6;
     font-family: "Nunito-Regular";
@@ -20,3 +39,12 @@
     margin-left: 1vw;
     font-size: 2vh;
 }
+
+/* .activitycardtitle-highlight-open{
+    color: #1884FF;
+    font-family: "Nunito-Regular";
+    font-weight: 900;    
+    margin-left: 1vw;
+    font-size: 2vh;
+    left: 2vw;
+} */

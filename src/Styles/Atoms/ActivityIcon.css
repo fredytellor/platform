@@ -4,6 +4,13 @@
     margin-left: 1.5vw;
 }
 
+.activityicon-div-open{
+    align-self: center;
+    margin-left: 1.5vw;       
+    position: absolute;    
+    top: 2vh; 
+}
+
 .activityicon-img{
     height: 5vh;    
     object-fit: contain;
@@ -21,7 +28,8 @@
     align-self: center; 
     right: 2vw;
     transform: rotate(0deg);
-    position: absolute; 
+    position: absolute;    
+    top: 2vh;
 }
 
 .activityicon-img-arrow{
