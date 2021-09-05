@@ -6,3 +6,13 @@ color: #103460;
 bottom: 0px;
 align-self: center;
 }
+
+.mytitle-h1-events{
+font-size: 5vh;
+font-family: "gotham-medium";
+font-weight: 50;
+color: white;
+bottom: 0px;
+align-self: center;
+margin-top: -4vh;
+}

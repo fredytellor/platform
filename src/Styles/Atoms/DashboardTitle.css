@@ -3,6 +3,8 @@
     font-family: "gotham-medium";
     font-weight: 100;
     color:white;
+    width: 30vw;
+    /* background-color: wheat; */
     bottom: 25vh;
     left: 16vw;
     position: relative;

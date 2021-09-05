@@ -5,6 +5,8 @@ import MyTitle from "../Atoms/MyTitle";
 import Divider from "../Atoms/Divider";
 import TodayActivityCard from "../Molecules/TodayActivityCard";
 import EventsSlideButton from "../Atoms/EventsSlideButton";
+import EventsTitleCard from "../Molecules/EventsTitleCard";
+import EventsSubjectCard from "../Atoms/EventsSubjectCard";
 
 import thumbImg from "../assets/static/thumbnail@2x.png";
 
@@ -18,8 +20,11 @@ const Events = () => {
             <div className="eventssection-div">
                 <div className="eventssection-div-top">
                     <EventsCard>
-                        <EventsSlideButton isLeft={true}/>
-                        <EventsSlideButton isLeft={false}/>
+                        <EventsSlideButton isLeft={true} />
+                        <EventsSlideButton isLeft={false} />
+                        <EventsTitleCard firstLine={"Youth Talent &"} secondLine="Education"/>
+                        <EventsTitleCard firstLine={"May, 20"} isTime={true}/>
+                        <EventsSubjectCard subject="SCIENCE"/>
                     </EventsCard>
                     <EventsTopic text="EVENTS TODAY" />
                     <Divider />
