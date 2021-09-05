@@ -5,11 +5,17 @@
 
 .eventssection-div{
     display: block;
-
 }
 
 .eventssection-div-top{
-    display: flex;    
+    display: flex;   
+    /* background-color: aqua;  */
+    /* justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    align-items: center; */
 }
 
 .events-activities-div{
