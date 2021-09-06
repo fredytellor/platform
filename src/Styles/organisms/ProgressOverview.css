@@ -10,6 +10,12 @@
         display: flex;
         flex-direction: column;
     }
+    .circularprogress-div {
+        height: 28.5vh;
+        width: 40vw;
+        justify-content: center;
+        align-self: center;
+    }
 }
 
 
@@ -23,5 +29,11 @@
         border-radius: 10px;
         display: flex;
         flex-direction: column;
+    }
+    .circularprogress-div {
+        height: 28vh;
+        width: 14vw;
+        justify-content: center;
+        align-self: center;
     }
 }
