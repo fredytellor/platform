@@ -4,14 +4,14 @@
     .progressitemtext-div {
         color: #9C9AB5;
         font-family: "gotham-bold";
-        /* background-color: rosybrown ; */
-        width: min-content;
+        /* background-color: rosybrown; */
+        width: 20vw;
         flex-wrap: row wrap;
         align-self: center;
         margin-left: 2vw;
     }
     .progressitemtext-h2 {
-        font-size: 2.3vh;
+        font-size: 2.2vh;
         font-family: "gotham-bold";
     }
     .progressitemtext-highlight-div {

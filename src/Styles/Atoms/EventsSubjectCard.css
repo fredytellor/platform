@@ -1,6 +1,3 @@
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {}
-
-
 /* Mobile */
 
 @media(max-width:760px) {
@@ -11,7 +8,7 @@
         position: absolute;
         border-radius: 20px;
         margin-top: -12vh;
-        margin-left: 65vw;
+        margin-left: 60vw;
         font-size: 1.5vh;
         padding: 0.5vh 2vh;
         display: flex;
@@ -19,24 +16,6 @@
         font-weight: 600;
     }
 }
-
-
-/* @media(max-width:761px) {
-    .eventssubjectcard-div {
-        background-color: #3D83FF;
-        width: 5vw;
-        color: white;
-        position: absolute;
-        border-radius: 20px;
-        margin-top: -13vh;
-        margin-left: 48vw;
-        font-size: 1.5vh;
-        padding: 0.5vh 1vh;
-        display: flex;
-        justify-content: center;
-        font-weight: 600;
-    }
-} */
 
 
 /* Desktop */

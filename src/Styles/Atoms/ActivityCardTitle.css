@@ -3,13 +3,14 @@
 @media(max-width:760px) {
     .activitycardtitle-div {
         height: min-content;
-        width: max-content;
+        width: 65vw;
         align-self: center;
         justify-self: center;
     }
     .activitycardtitle-div-open {
         height: min-content;
-        width: max-content;
+        width: 65vw;
+        /* background-color: khaki; */
         align-self: center;
         position: absolute;
     }

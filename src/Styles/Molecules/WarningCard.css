@@ -2,8 +2,8 @@
 
 @media(max-width:760px) {
     .warningcard-div {
-        height: 10vh;
-        width: 80vw;
+        height: 12vh;
+        width: 85vw;
         margin-top: 5vh;
         margin-bottom: 5vh;
         background-color: transparent;

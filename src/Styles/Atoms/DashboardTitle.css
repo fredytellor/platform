@@ -7,7 +7,6 @@
         font-weight: 100;
         color: white;
         width: 70vw;
-        /* background-color: wheat; */
         bottom: 13vh;
         left: 8vw;
         position: relative;
@@ -18,8 +17,8 @@
         font-weight: 100;
         color: white;
         width: max-content;
-        margin-left: 15vw;
-        margin-bottom: 1vh;
+        margin-left: 10vw;
+        margin-bottom: 0vh;
         display: flex;
         align-self: center;
         align-content: center;
@@ -30,9 +29,10 @@
         position: relative;
     }
     .dashboardtitle-h1-subwarning {
-        font-size: 2vh;
+        font-size: 1.9vh;
         font-family: "gotham-medium";
         font-weight: 50;
+        margin-left: 7vw;
         color: white;
         width: 80vw;
         display: flex;

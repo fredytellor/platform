@@ -1,14 +1,26 @@
-.learningtitle-h1{
-    font-size: 2.8vh;
-    font-family: "gotham-medium";
-    font-weight: 50;
-    color: #103460;    
-    font-weight: 600;
-    display: flex;
-    /* align-content: baseline;
-    align-self: baseline;
-    align-items: baseline; */
-    /* justify-content: baseline;
-    justify-self: baseline;
-    justify-items: baseline; */
+/* Mobile */
+
+@media(max-width:760px) {
+    .learningtitle-h1 {
+        font-size: 2.3vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        font-weight: 600;
+        display: flex;
     }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .learningtitle-h1 {
+        font-size: 2.8vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        font-weight: 600;
+        display: flex;
+    }
+}
