@@ -33,8 +33,9 @@
         background-color: #E8E8ED;
         width: 14vw;
         height: 0.25vh;
-        margin-top: 2.5vh;
+        margin-top: 0.5vh;
         margin-left: 1vw;
+        align-self: flex-start;
     }
     .divider-activity-div {
         background-color: #E8E8ED;

@@ -19,8 +19,8 @@
         color: #304E75;
         font-family: "gotham-bold";
         font-weight: 500;
-        /* margin-top: 5vh; */
         margin-left: 1vw;
-        font-size: 2vh;
+        font-size: 1.8vh;
+        margin-top: -0.5vh;
     }
 }

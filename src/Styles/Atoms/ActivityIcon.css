@@ -8,8 +8,10 @@
     .activityicon-div-open {
         align-self: center;
         margin-left: 1.5vw;
+        /* align-self: center;
+        margin-left: 1.5vw;
         position: absolute;
-        top: 2vh;
+        top: 2vh; */
     }
     .activityicon-img {
         height: 5vh;

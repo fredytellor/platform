@@ -20,9 +20,9 @@
     }
     .mytitle-h1-progress {
         font-size: 3.7vh;
-        font-family: "gilroy-bold";
-        font-weight: 600;
-        color: white;
+        font-family: "gotham-medium";
+        font-weight: 300;
+        color: #FFFFFF;
         align-self: center;
         justify-content: center;
     }

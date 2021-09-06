@@ -1,45 +1,44 @@
 /* Mobile */
-@media(max-width:760px){
-    .mymenu-div{
+
+@media(max-width:760px) {
+    .mymenu-div {
         background-color: #3D83FF;
         border-radius: 100%;
-        width: 7vh;        
-        height: 7vh;        
+        width: 7vh;
+        height: 7vh;
         display: block;
         flex-direction: column;
-        left: 1.5vh;    
-        position: absolute;    
+        left: 1.5vh;
+        position: absolute;
         box-sizing: border-box;
         top: 1.5vh;
-        background-image:url("/src/assets/static/menu/menu-icon-bold.png");
+        background-image: url("/src/assets/static/menu/menu-icon-bold.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size:4vh;
+        background-size: 4vh;
     }
-
-    .mymenu-icon-div{
-        display: none;        
+    .mymenu-icon-div {
+        display: none;
     }
-
-    /* .mymenu{
-        background-color: tomato;
-        background-image:url("/src/assets/static/menu/menu-icon-bold.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    } */
 }
+
+
 /* Desktop */
-@media(min-width:761px){
-    .mymenu-div{
+
+@media(min-width:761px) {
+    .mymenu-div {
         background-color: #3D83FF;
         width: 4vw;
-        /* height: 186vh; */
         height: 100%;
         display: flex;
         flex-direction: column;
-        left: 0;    
-        position: absolute;
+        left: 0;
+        z-index: 0;
+        position: fixed;
         top: 10vh;
+        left: 0px;
+    }
+    .mymenu-icon-div {
+        display: block;
     }
 }

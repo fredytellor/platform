@@ -12,7 +12,7 @@ const Activities = () => {
     return (
         <div className="activities-div">
         <ActivityHeader title="Activity" />
-        <ActivityCard iconSrc={followerIcon} leadText="You have new 5 followers including" highlight="Kathryn Crawford" otherHighlight="Piper Shaw"/>
+        <ActivityCard iconSrc={followerIcon} leadText="You have new 5 followers including" name1="Kathryn Crawford" name2="Piper Shaw"/>
         <ActivityCard iconSrc={eventsIcon} leadText="3 new events were added to your calendar"/>
         <ActivityCard iconSrc={assignmentsIcon} leadText="You have 3 pending readings to complete 🤓"/>
         </div>
