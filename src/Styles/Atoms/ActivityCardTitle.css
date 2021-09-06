@@ -10,7 +10,7 @@
     .activitycardtitle-div-open {
         height: min-content;
         width: 65vw;
-        /* background-color: khaki; */
+        font-family: "Nunito-Regular";
         align-self: center;
         position: absolute;
     }
@@ -24,8 +24,10 @@
     .activitycard-open-content {
         width: 60vw;
         flex-wrap: wrap;
-        margin-top: 3.5vh;
+        margin-top: 4vh;
         margin-left: 3vw;
+        font-family: "Nunito-Regular";
+        color: #103460;
     }
 }
 
@@ -57,5 +59,7 @@
     .activitycard-open-content {
         width: 70vw;
         flex-wrap: wrap;
+        font-family: "Nunito-Regular";
+        color: #103460;
     }
 }
