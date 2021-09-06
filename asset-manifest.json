@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/platform/static/css/main.3c589309.chunk.css",
-    "main.js": "/platform/static/js/main.23500a40.chunk.js",
-    "main.js.map": "/platform/static/js/main.23500a40.chunk.js.map",
+    "main.css": "/platform/static/css/main.70b19b38.chunk.css",
+    "main.js": "/platform/static/js/main.0d405846.chunk.js",
+    "main.js.map": "/platform/static/js/main.0d405846.chunk.js.map",
     "runtime-main.js": "/platform/static/js/runtime-main.a24b9eb3.js",
     "runtime-main.js.map": "/platform/static/js/runtime-main.a24b9eb3.js.map",
     "static/js/2.7b187c3b.chunk.js": "/platform/static/js/2.7b187c3b.chunk.js",
     "static/js/2.7b187c3b.chunk.js.map": "/platform/static/js/2.7b187c3b.chunk.js.map",
     "index.html": "/platform/index.html",
-    "static/css/main.3c589309.chunk.css.map": "/platform/static/css/main.3c589309.chunk.css.map",
+    "static/css/main.70b19b38.chunk.css.map": "/platform/static/css/main.70b19b38.chunk.css.map",
     "static/js/2.7b187c3b.chunk.js.LICENSE.txt": "/platform/static/js/2.7b187c3b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/platform/static/media/Nunito-Regular.09b2f37e.ttf",
     "static/media/Picture@3x.8627c5cf.png": "/platform/static/media/Picture@3x.8627c5cf.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a24b9eb3.js",
     "static/js/2.7b187c3b.chunk.js",
-    "static/css/main.3c589309.chunk.css",
-    "static/js/main.23500a40.chunk.js"
+    "static/css/main.70b19b38.chunk.css",
+    "static/js/main.0d405846.chunk.js"
   ]
 }
