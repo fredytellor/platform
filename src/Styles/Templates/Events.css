@@ -2,15 +2,16 @@
 
 @media(max-width:760px) {
     .events-div {
-        display: block;
-        flex-direction: column;
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
     }
     .eventssection-div {
         display: block;
     }
     .eventssection-div-top {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 

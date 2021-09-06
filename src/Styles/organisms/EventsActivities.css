@@ -3,6 +3,7 @@
 @media(max-width:760px) {
     .events-activities-div {
         margin-top: 0vh;
+        display: flex;
     }
 }
 

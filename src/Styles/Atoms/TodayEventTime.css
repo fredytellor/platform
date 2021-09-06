@@ -1,12 +1,32 @@
-.todayeventtime-div{    
-    position: relative;   
-    padding-left: 7vw;
-    padding-top: 4vh;
-    color: #9D9BB6;
+/* Mobile */
+
+@media(max-width:760px) {
+    .todayeventtime-div {
+        position: relative;
+        padding-left: 7vw;
+        padding-top: 13vh;
+        color: #9D9BB6;
+    }
+    .todayeventtime-span {
+        font-family: "gilroy";
+        font-size: 2vh;
+        font-weight: 900;
+    }
 }
 
-.todayeventtime-span{
-    font-family: "gilroy";
-    font-size: 2vh;
-    font-weight: 900;
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .todayeventtime-div {
+        position: relative;
+        padding-left: 7vw;
+        padding-top: 4vh;
+        color: #9D9BB6;
+    }
+    .todayeventtime-span {
+        font-family: "gilroy";
+        font-size: 2vh;
+        font-weight: 900;
+    }
 }
