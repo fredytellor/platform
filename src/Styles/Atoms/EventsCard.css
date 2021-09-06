@@ -1,39 +1,82 @@
-.eventscard-div0{
-    width: 69%;
-    height: 38vh;
-    background-color: transparent;
-    background-image:url("/src/assets/static/clock.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 0vh;
-    border-radius: 20px; 
-    box-sizing: border-box;
+/* Mobile */
+
+@media(max-width:760px) {
+    .eventscard-div0 {
+        width: 85vw;
+        height: 38vh;
+        background-color: transparent;
+        background-image: url("/src/assets/static/clock.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    .eventscard-div1 {
+        width: 85vw;
+        height: 38vh;
+        background-color: transparent;
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.998VaNgE4juUyqJ_-yC8aQHaEo&pid=Api");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    .eventscard-div2 {
+        width: 85vw;
+        height: 38vh;
+        background-color: transparent;
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.IphYABVw8LkCu8s4bUmwvwHaDP&pid=Api");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
 }
 
-.eventscard-div1{
-    width: 69%;
-    height: 38vh;
-    background-color: transparent;
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.998VaNgE4juUyqJ_-yC8aQHaEo&pid=Api");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 0vh;
-    border-radius: 20px; 
-    box-sizing: border-box;
-}
 
+/* Desktop */
 
-.eventscard-div2{
-    width: 69%;
-    height: 38vh;
-    background-color: transparent;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.IphYABVw8LkCu8s4bUmwvwHaDP&pid=Api");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 0vh;
-    border-radius: 20px; 
-    box-sizing: border-box;
+@media(min-width:761px) {
+    .eventscard-div0 {
+        width: 69%;
+        height: 38vh;
+        background-color: transparent;
+        background-image: url("/src/assets/static/clock.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    .eventscard-div1 {
+        width: 69%;
+        height: 38vh;
+        background-color: transparent;
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.998VaNgE4juUyqJ_-yC8aQHaEo&pid=Api");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    .eventscard-div2 {
+        width: 69%;
+        height: 38vh;
+        background-color: transparent;
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.IphYABVw8LkCu8s4bUmwvwHaDP&pid=Api");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
 }

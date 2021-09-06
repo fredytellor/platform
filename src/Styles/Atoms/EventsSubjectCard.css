@@ -1,14 +1,38 @@
-.eventssubjectcard-div{
-background-color: #3D83FF;
-width: 5vw;
-color: white;
-position: absolute;
-border-radius: 20px;
-margin-top: -13vh;
-margin-left: 48vw;
-font-size: 1.5vh;
-padding: 0.5vh 1vh;
-display: flex;
-justify-content: center;
-font-weight: 600;
+/* Mobile */
+
+@media(max-width:760px) {
+    .eventssubjectcard-div {
+        background-color: #3D83FF;
+        width: max-content;
+        color: white;
+        position: absolute;
+        border-radius: 20px;
+        margin-top: -12vh;
+        margin-left: 65vw;
+        font-size: 1.5vh;
+        padding: 0.5vh 2vh;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .eventssubjectcard-div {
+        background-color: #3D83FF;
+        width: 5vw;
+        color: white;
+        position: absolute;
+        border-radius: 20px;
+        margin-top: -13vh;
+        margin-left: 48vw;
+        font-size: 1.5vh;
+        padding: 0.5vh 1vh;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+    }
 }
