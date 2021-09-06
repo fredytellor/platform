@@ -1,30 +1,75 @@
-.activitycard-div{
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
-    background-color: white;
-    height: 8vh;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2vh;
-    cursor: pointer;
-    transform: scale(1);
-    transition: 0.5s;
+/* Mobile */
+
+@media(max-width:760px) {
+    .activitycard-div {
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        background-color: white;
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2vh;
+        cursor: pointer;
+        transform: scale(1);
+        padding: 3vw 2vh;
+        transition: 0.5s;
+    }
+    .activitycard-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .activitycard-div:hover {
+        transform: scale(1.015);
+        box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
+    }
+    .activitycard-div-open {
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        background-color: white;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2vh;
+        padding: 3vw 2vh;
+        cursor: pointer;
+        transform: scale(1);
+        transition: 0.5s;
+    }
 }
 
-.activitycard-div:hover{
-    transform: scale(1.015);
-    box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
-}
 
-.activitycard-div-open{
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
-    background-color: white;
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2vh;
-    cursor: pointer;
-    transform: scale(1);
-    transition: 0.5s;
+/* Desktop */
+
+@media(min-width:761px) {
+    .activitycard-div {
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        background-color: white;
+        height: 8vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2vh;
+        cursor: pointer;
+        transform: scale(1);
+        transition: 0.5s;
+    }
+    .activitycard-content {
+        display: flex;
+    }
+    .activitycard-div:hover {
+        transform: scale(1.015);
+        box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
+    }
+    .activitycard-div-open {
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        background-color: white;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2vh;
+        cursor: pointer;
+        transform: scale(1);
+        transition: 0.5s;
+    }
 }

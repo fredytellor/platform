@@ -6,7 +6,6 @@ const ActivityCardTitle = (props) => {
     const { text, isHighlight, isOpen } = props;
     return (
         <div className={isOpen ? isHighlight ? "activitycardtitle-div-open-highlight" : "activitycardtitle-div-open" : "activitycardtitle-div"}>
-            {/* <h2 className={isHighlight?isOpen?"activitycardtitle-highlight-open":"activitycardtitle-highlight":"activitycardtitle-h2"}>{text}</h2> */}
             <h2 className={isHighlight ? "activitycardtitle-highlight" : "activitycardtitle-h2"}>{text}</h2>
         </div>
     );

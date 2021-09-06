@@ -37,20 +37,7 @@
         transition: 0.5s;
     }
     .eventsslidebutton-div-activity {
-        align-self: center;
-        height: 4.25vh;
-        width: 6vh;
-        background-color: rgba(157, 155, 182, 0.17);
-        border-radius: 5px;
-        cursor: pointer;
-        /* margin-top: 2vh; */
-        margin-left: 1vw;
-        /* right: 35.5vw;  */
-        position: static;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 0.5s;
+        display: none;
     }
     .eventsslidebutton-div-activity:hover {
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);

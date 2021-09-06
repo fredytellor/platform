@@ -1,39 +1,70 @@
-.activityicon-div{
-    align-self: center;
-    /* background-color: yellow; */
-    margin-left: 1.5vw;
+/* Mobile */
+
+@media(max-width:760px) {
+    .activityicon-div {
+        align-self: center;
+        margin-left: 1.5vw;
+    }
+    .activityicon-div-open {
+        align-self: center;
+        margin-left: 1.5vw;
+        position: absolute;
+        top: 2vh;
+    }
+    .activityicon-img {
+        height: 5vh;
+        object-fit: contain;
+        position: relative;
+    }
+    .activityicon-div-arrow {
+        display: none;
+    }
+    .activityicon-div-arrow-open {
+        display: none;
+    }
+    .activityicon-img-arrow {
+        height: 1.25vh;
+        object-fit: contain;
+        position: relative;
+    }
 }
 
-.activityicon-div-open{
-    align-self: center;
-    margin-left: 1.5vw;       
-    position: absolute;    
-    top: 2vh; 
-}
 
-.activityicon-img{
-    height: 5vh;    
-    object-fit: contain;
-    position: relative;  
-}
+/* Desktop */
 
-.activityicon-div-arrow{
-    align-self: center; 
-    right: 2vw;
-    transform: rotate(90deg);
-    position: absolute;
-}
-
-.activityicon-div-arrow-open{
-    align-self: center; 
-    right: 2vw;
-    transform: rotate(0deg);
-    position: absolute;    
-    top: 2vh;
-}
-
-.activityicon-img-arrow{
-    height: 1.25vh;    
-    object-fit: contain;
-    position: relative;  
+@media(min-width:761px) {
+    .activityicon-div {
+        align-self: center;
+        /* background-color: yellow; */
+        margin-left: 1.5vw;
+    }
+    .activityicon-div-open {
+        align-self: center;
+        margin-left: 1.5vw;
+        position: absolute;
+        top: 2vh;
+    }
+    .activityicon-img {
+        height: 5vh;
+        object-fit: contain;
+        position: relative;
+    }
+    .activityicon-div-arrow {
+        align-self: center;
+        right: 2vw;
+        transform: rotate(90deg);
+        position: absolute;
+    }
+    .activityicon-div-arrow-open {
+        align-self: center;
+        right: 2vw;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 2vh;
+    }
+    .activityicon-img-arrow {
+        height: 1.25vh;
+        object-fit: contain;
+        position: relative;
+    }
 }

@@ -13,11 +13,13 @@ const ActivityCard = (props) => {
     return (
         <div className={isOpen ? "activitycard-div-open" : "activitycard-div"} onClick={() => setIsOpen(!isOpen)}>
             <ActivityIcon iconSrc={iconSrc} isOpen={isOpen} />
+            <div className="activitycard-content">
             <ActivityCardTitle text={leadText} isOpen={isOpen} />
             {highlight !== undefined && <ActivityCardTitle isHighlight={true} text={highlight} isOpen={isOpen} />}
             {(otherHighlight !== undefined && isOpen !== true) && <ActivityCardTitle text="and" isOpen={isOpen} />}
             {highlight !== undefined && <ActivityCardTitle isHighlight={true} text={otherHighlight} isOpen={isOpen} />}
             <ActivityIcon iconSrc={continueArrow} isArrow={true} isOpen={isOpen} />
+            </div>
         </div>
     );
 };

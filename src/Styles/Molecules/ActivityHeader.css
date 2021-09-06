@@ -1,5 +1,18 @@
-.activityheader-div{
-    display: flex;
-    flex-direction: row;
-    /* background-color: turquoise; */
+/* Mobile */
+
+@media(max-width:760px) {
+    .activityheader-div {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .activityheader-div {
+        display: flex;
+        flex-direction: row;
+    }
 }
