@@ -38,6 +38,7 @@
         padding-top: 0px;
         box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
         z-index: 5;
+        position: fixed;
         display: flex;
         justify-content: space-between;
         box-sizing: border-box;
