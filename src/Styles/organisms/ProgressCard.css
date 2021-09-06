@@ -1,9 +1,27 @@
-.progresscard-div{
-    /* background-color: rgba(0, 0, 0, 0.1); */
-    height: 30vh;
-    width: 49vw;
-    margin-left: 4vw;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+/* Mobile */
+
+@media(max-width:760px) {
+    .progresscard-div {
+        /* background-color: rgba(0, 0, 0, 0.1); */
+        height: max-content;
+        width: 85vw;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .progresscard-div {
+        /* background-color: rgba(0, 0, 0, 0.1); */
+        height: 30vh;
+        width: 49vw;
+        margin-left: 4vw;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
 }
