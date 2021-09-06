@@ -11,7 +11,7 @@ const ProfileActions = () => {
         <>
             <div className="profile-actions-div">
                 <TextButton textContent="+ ADD"/>                
-                <IconButton imgSrc={notificationBell}/>
+                <IconButton imgSrc={notificationBell} isNotifications={true}/>
                 <IconButton imgSrc={chatImg}/>
             </div>
         </>

@@ -1,13 +1,54 @@
-.iconbutton-div{
-    position: relative;
-    align-self: center;
-    margin: 0.5vh 0.5vw 0.2vh 0.85vh;
+/* Mobile */
+
+@media(max-width:760px) {
+    .iconbutton-div {
+        position: relative;
+        align-self: center;
+        margin: 0.5vh 0.5vw 0.2vh 0.85vh;
+    }
+    .iconbutton-img {
+        height: 3.25vh;
+        width: 3.2vh;
+        object-fit: contain;
+        left: 0px;
+        align-items: center;
+        cursor: pointer;
+    }
 }
-.iconbutton-img{ 
-    height: 3.25vh;
-    width: 3.2vh;
-    object-fit: contain;
-    left: 0px;
-    align-items: center;
-    cursor: pointer;
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .iconbutton-div {
+        position: relative;
+        align-self: center;
+        margin: 0.5vh 0.5vw 0.2vh 0.85vh;
+    }
+    .iconbutton-img {
+        height: 3.25vh;
+        width: 3.2vh;
+        object-fit: contain;
+        left: 0px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .iconbutton-bell {
+        height: 3.25vh;
+        width: 3.2vh;
+        object-fit: contain;
+        left: 0px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .stackball-div {
+        height: 1.8vh;
+        width: 1.8vh;
+        background-color: #3D83FF;
+        border-radius: 100%;
+        margin-top: -2vh;
+        margin-left: 1vw;
+        position: absolute;
+        cursor: pointer;
+    }
 }
