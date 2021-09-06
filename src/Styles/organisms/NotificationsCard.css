@@ -1,0 +1,15 @@
+.notificationscard-div {
+    height: 30vh;
+    width: 22vw;
+    background-color: white;
+    border-radius: 10px 0px 10px 10px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+    margin-top: -1.5vh;
+    margin-left: -20vw;
+    position: absolute;
+    cursor: pointer;
+}
+
+.notificationscard-hidden {
+    visibility: hidden;
+}
