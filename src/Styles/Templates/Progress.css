@@ -1,5 +1,18 @@
-.progress-div{
-    display: flex;
-    /* background-color: thistle; */
-    margin-top: 2.6vh;
+/* Mobile */
+
+@media(max-width:760px) {
+    .progress-div {
+        display: block;
+        margin-top: 2.6vh;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .progress-div {
+        display: flex;
+        margin-top: 2.6vh;
+    }
 }

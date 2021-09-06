@@ -1,5 +1,20 @@
-.hourstopic-div{
-    /* background-color: teal; */
-    display: flex;    
-    margin-top: 1.5vh;
+/* Mobile */
+
+@media(max-width:760px) {
+    .hourstopic-div {
+        /* background-color: teal; */
+        display: flex;
+        margin-top: 1.5vh;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .hourstopic-div {
+        /* background-color: teal; */
+        display: flex;
+        margin-top: 1.5vh;
+    }
 }

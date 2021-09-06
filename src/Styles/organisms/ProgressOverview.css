@@ -1,8 +1,27 @@
-.progressoverview-div{
-    background-color: #192E7C;
-    height: 55vh;
-    width: 30vw;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+/* Mobile */
+
+@media(max-width:760px) {
+    .progressoverview-div {
+        background-color: #192E7C;
+        height: 55vh;
+        width: 100vw;
+        margin-left: -6vw;
+        /* border-radius: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .progressoverview-div {
+        background-color: #192E7C;
+        height: 55vh;
+        width: 30vw;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
 }

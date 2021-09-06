@@ -1,6 +1,22 @@
-.hoursamount-div{
-    display: flex;
-    /* background-color: teal; */
-    height: min-content;
-    
+/* Mobile */
+
+@media(max-width:760px) {
+    .hoursamount-div {
+        display: flex;
+        /* background-color: teal; */
+        height: min-content;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width:761px) {
+    .hoursamount-div {
+        display: flex;
+        /* background-color: teal; */
+        height: min-content;
+    }
 }

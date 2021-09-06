@@ -1,38 +1,76 @@
-.progresshours-div{
-    background-color: #2F4186;
-    border-radius: 20px;
-    height: 13.5vh;
-    width: 43vh;
-    margin-top: 2.5vh;
-    align-self: center;
-    justify-content: center;
-    display: flex;    
-    justify-content: space-around; 
-    box-sizing: border-box;
-    padding-left: 2vh;
-    padding-right: 2vh;
+/* Mobile */
+
+@media(max-width:760px) {
+    .progresshours-div {
+        background-color: #2F4186;
+        border-radius: 20px;
+        height: 13.5vh;
+        width: 43vh;
+        margin-top: 2.5vh;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+    .progresshours-side-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .progresshours-side-topic {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .progresshours-side-hours {
+        display: flex;
+        margin-top: -4vh;
+        flex-direction: row;
+        height: min-content;
+        align-self: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-self: start;
+        justify-items: start;
+    }
 }
 
-.progresshours-side-div{
-    display: flex;
-    flex-direction: column;
-}
 
+/* Desktop */
 
-
-.progresshours-side-topic{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.progresshours-side-hours{
-    display: flex;
-    margin-top: -4vh;
-    flex-direction: row;
-    height: min-content;
-    align-self: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-    justify-self: start;
-    justify-items: start;
+@media(min-width:761px) {
+    .progresshours-div {
+        background-color: #2F4186;
+        border-radius: 20px;
+        height: 13.5vh;
+        width: 43vh;
+        margin-top: 2.5vh;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+    .progresshours-side-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .progresshours-side-topic {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .progresshours-side-hours {
+        display: flex;
+        margin-top: -4vh;
+        flex-direction: row;
+        height: min-content;
+        align-self: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-self: start;
+        justify-items: start;
+    }
 }
