@@ -10,7 +10,7 @@ const NotFound = () => (
             <h2 className="notfound-h2">{`Currently only "Home" is available.`}</h2>
         </div>
        <div className="notfound-link-div">
-       <Link className="notfound-link" to="/">Volver</Link>
+       <Link className="notfound-link" to="/">Home</Link>
        </div>
     </div>
 );
