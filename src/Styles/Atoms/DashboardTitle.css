@@ -14,12 +14,12 @@
         text-align: center;
     }
     .dashboardtitle-h1-warning {
-        font-size: 2.2vh;
+        font-size: 2.1vh;
         font-family: "gotham-medium";
         font-weight: 100;
         color: white;
         width: max-content;
-        margin-left: 10vw;
+        margin-left: 10.5vw;
         margin-bottom: 0vh;
         display: flex;
         align-self: center;
@@ -31,7 +31,7 @@
         position: relative;
     }
     .dashboardtitle-h1-subwarning {
-        font-size: 1.9vh;
+        font-size: 1.8vh;
         font-family: "gotham-medium";
         font-weight: 50;
         margin-left: 7vw;

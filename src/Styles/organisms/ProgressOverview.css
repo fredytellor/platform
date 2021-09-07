@@ -1,6 +1,27 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .progressoverview-div {
+        background-color: #192E7C;
+        height: 55vh;
+        width: 100vw;
+        margin-left: -6vw;
+        /* border-radius: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .circularprogress-div {
+        height: 55vw;
+        width: 45vw;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .progressoverview-div {
         background-color: #192E7C;
         height: 55vh;
@@ -21,7 +42,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .progressoverview-div {
         background-color: #192E7C;
         height: 55vh;

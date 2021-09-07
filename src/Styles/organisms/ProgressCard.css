@@ -1,6 +1,19 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .progresscard-div {
+        /* background-color: rgba(0, 0, 0, 0.1); */
+        height: max-content;
+        width: 85vw;
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .progresscard-div {
         /* background-color: rgba(0, 0, 0, 0.1); */
         height: max-content;
@@ -14,7 +27,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .progresscard-div {
         /* background-color: rgba(0, 0, 0, 0.1); */
         height: 30vh;

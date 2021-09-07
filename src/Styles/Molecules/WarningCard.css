@@ -1,6 +1,29 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .warningcard-div {
+        height: 12vh;
+        width: 87.5vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        background-color: transparent;
+        background-image: url("/src/assets/static/warning@2x.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 0.25vh;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .warningcard-div {
         height: 12vh;
         width: 85vw;
@@ -23,7 +46,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .warningcard-div {
         height: 8.5vh;
         width: 49vw;

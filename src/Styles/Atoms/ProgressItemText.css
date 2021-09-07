@@ -1,6 +1,38 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .progressitemtext-div {
+        color: #9C9AB5;
+        font-family: "gotham-bold";
+        /* background-color: rosybrown; */
+        width: 20vw;
+        flex-wrap: row wrap;
+        align-self: center;
+        margin-left: 3vw;
+    }
+    .progressitemtext-h2 {
+        font-size: 1.9vh;
+        font-family: "gotham-bold";
+    }
+    .progressitemtext-highlight-div {
+        color: white;
+        font-family: "gotham-bold";
+        width: min-content;
+        flex-wrap: row wrap;
+        align-self: center;
+        margin-left: 2vw;
+    }
+    .progressitemtext-highlight-h2 {
+        font-size: 2.3vh;
+        color: white;
+        font-family: "gotham-bold";
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .progressitemtext-div {
         color: #9C9AB5;
         font-family: "gotham-bold";
@@ -32,7 +64,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .progressitemtext-div {
         color: #9C9AB5;
         font-family: "gotham-bold";

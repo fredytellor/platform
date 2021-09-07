@@ -1,6 +1,40 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .activitycardtitle-div {
+        height: min-content;
+        width: 65vw;
+        align-self: center;
+        justify-self: center;
+    }
+    .activitycardtitle-div-open {
+        height: min-content;
+        width: 65vw;
+        font-family: "Nunito-Regular";
+        align-self: center;
+        position: absolute;
+    }
+    .activitycardtitle-h2 {
+        color: #9D9BB6;
+        font-family: "Nunito-Regular";
+        font-weight: 400;
+        margin-left: 2vw;
+        font-size: 1.9vh;
+    }
+    .activitycard-open-content {
+        width: 60vw;
+        flex-wrap: wrap;
+        margin-top: 4vh;
+        margin-left: 3vw;
+        font-family: "Nunito-Regular";
+        color: #103460;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .activitycardtitle-div {
         height: min-content;
         width: 65vw;
@@ -34,7 +68,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .activitycardtitle-div {
         /* background-color: thistle; */
         height: min-content;

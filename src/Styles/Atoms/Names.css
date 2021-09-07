@@ -1,6 +1,49 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .names-div {
+        height: min-content;
+        width: max-content;
+        align-self: center;
+        display: flex;
+        justify-self: center;
+        /* background-color: thistle; */
+        margin-top: -1.5vh
+    }
+    .names-div-open {
+        height: min-content;
+        width: max-content;
+        align-self: center;
+        position: absolute;
+        display: flex;
+        top: 4.5vh;
+        left: 16.5vw;
+    }
+    .names-div-open-highlight {
+        height: min-content;
+        width: max-content;
+        align-self: center;
+    }
+    .names-h2 {
+        color: #1884FF;
+        font-family: "Nunito-Regular";
+        font-weight: 900;
+        margin-left: 2vw;
+        font-size: 1.65vh;
+    }
+    .names-connector {
+        color: #9D9BB6;
+        font-family: "Nunito-Regular";
+        font-weight: 900;
+        margin-left: 1vw;
+        font-size: 1.65vh;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .names-div {
         height: min-content;
         width: max-content;
@@ -41,7 +84,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .names-div {
         height: min-content;
         width: max-content;
