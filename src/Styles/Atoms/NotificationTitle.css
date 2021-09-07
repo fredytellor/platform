@@ -1,0 +1,8 @@
+.notificationtitle {
+    position: absolute;
+    font-family: "gilroy-bold";
+    font-size: 1.9vh;
+    color: #192452;
+    margin-left: 5vw;
+    width: 15vw;
+}

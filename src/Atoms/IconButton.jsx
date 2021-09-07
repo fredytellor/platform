@@ -7,7 +7,7 @@ const IconButton = (props) => {
     const { imgSrc, isNotifications } = props;
 
     const [isShowing, setIsShowing] = useState(false);
- 
+
     return (
         <div className="iconbutton-div">
             <img
@@ -18,7 +18,7 @@ const IconButton = (props) => {
             {
                 isNotifications &&
                 <div>
-                    <div className="stackball-div"></div>
+                    <div className={isShowing?"stackball-hidden":"stackball-div"} ></div>
                     <NotificationsCard isShowing={isShowing} />
                 </div>
             }

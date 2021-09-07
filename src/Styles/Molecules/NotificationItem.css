@@ -1,0 +1,20 @@
+.notificationitem-div {
+    /* display: flex; */
+    margin-top: 3vh;
+    position: absolute;
+    width: max-content;
+}
+
+.notificationitem2-div {
+    /* display: flex; */
+    margin-top: 11vh;
+    position: absolute;
+    width: max-content;
+}
+
+.notificationitem3-div {
+    /* display: flex; */
+    margin-top: 19vh;
+    position: absolute;
+    width: max-content;
+}

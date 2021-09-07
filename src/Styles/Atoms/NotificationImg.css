@@ -1,0 +1,7 @@
+.notificationimg {
+    height: 6vh;
+    width: 6vh;
+    margin-left: 1vw;
+    object-fit: contain;
+    position: absolute;
+}
