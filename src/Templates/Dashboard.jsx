@@ -1,11 +1,11 @@
 import React from "react";
 import TopicCard from "../Organisms/TopicCard";
 import MyTitle from "../Atoms/MyTitle";
-
+import DashboardSection from "../Molecules/DashboardSection";
 import usaFlag from "../assets/static/usa-flag-icon@3x.png";
 
 import "../Styles/Templates/Dashboard.css";
-import DashboardSection from "../Molecules/DashboardSection";
+
 
 
 

@@ -1,19 +1,35 @@
+/* Mobile */
 
-  /* Mobile */
-@media(max-width:760px){
-  .mylogo-img{
-    height: 10vh;
-    width: 30vw;
-    object-fit: contain;
-    margin-left: 15vw;
-  }
+@media screen and (max-width:480px) {
+    .mylogo-img {
+        height: 10vh;
+        width: 35vw;
+        object-fit: contain;
+        margin-left: 15vw;
+    }
 }
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
+    .mylogo-img {
+        height: 10vh;
+        width: 30vw;
+        object-fit: contain;
+        margin-left: 15vw;
+        /* background-color: tomato; */
+    }
+}
+
+
 /* Desktop */
-@media(min-width:761px){
-  .mylogo-img{ 
-    height: 10vh;
-    width: 12vw;
-    object-fit: contain;
-    left: 0px;
-  }
+
+@media screen and (min-width:761px) {
+    .mylogo-img {
+        height: 10vh;
+        width: 12vw;
+        object-fit: contain;
+        left: 0px;
+    }
 }

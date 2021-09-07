@@ -1,6 +1,69 @@
-/* mobile */
+@media screen and (max-width:480px) {
+    .notfound-div {
+        /* background-color: thistle; */
+        background-color: #F5F5FA;
+        height: 25vh;
+        width: max-content;
+        /* width: max-content; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .notfound-div-texts {
+        /* background-color: teal; */
+        height: 20vh;
+        width: max-content;
+    }
+    .notfound-h1 {
+        font-size: 3.7vh;
+        font-family: "gilroy-bold";
+        font-weight: 600;
+        color: #103460;
+        align-self: center;
+        /* margin-left: 30vw; */
+        padding-left: 25vw;
+        width: max-content;
+        /* background-color: thistle; */
+    }
+    .notfound-h2 {
+        /* background-color: thistle; */
+        font-size: 3vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        bottom: 0px;
+        align-self: center;
+        margin-top: 0vh;
+        padding-left: 2.5vw;
+        width: 90vw;
+    }
+    .notfound-link-div {
+        background-color: #103460;
+        color: white;
+        height: max-content;
+        width: max-content;
+        align-self: center;
+        padding: 1vh;
+        margin-left: 0vw;
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .notfound-link-div:hover {
+        background-color: #3D83FF;
+        padding: 1.5vh;
+    }
+    .notfound-link {
+        color: white;
+        font-size: 2.5vh;
+        text-decoration: none;
+        font-family: 'gotham-medium';
+    }
+}
 
-@media(max-width:760px) {
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .notfound-div {
         background-color: #F5F5FA;
         height: 20vh;
@@ -61,7 +124,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .notfound-div {
         background-color: #F5F5FA;
         height: 20vh;

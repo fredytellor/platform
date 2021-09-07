@@ -1,6 +1,45 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .mytitle-h1 {
+        font-size: 3.4vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        bottom: 0px;
+        align-self: center;
+    }
+    .mytitle-h1-events {
+        font-size: 4.7vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: white;
+        bottom: 0px;
+        align-self: center;
+        margin-top: -4vh;
+    }
+    .mytitle-h1-progress {
+        font-size: 3.7vh;
+        font-family: "gotham-medium";
+        font-weight: 300;
+        color: #FFFFFF;
+        align-self: center;
+        justify-content: center;
+    }
+    .mytitle-h1-progress-hour {
+        font-size: 5.9vh;
+        font-family: "gilroy-bold";
+        font-weight: 600;
+        color: white;
+        align-self: center;
+        justify-content: center;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .mytitle-h1 {
         font-size: 3.8vh;
         font-family: "gotham-medium";
@@ -39,7 +78,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .mytitle-h1 {
         font-size: 3.8vh;
         font-family: "gotham-medium";

@@ -1,6 +1,6 @@
 /* Mobile */
 
-@media(max-width:761px) {
+@media screen and (max-width:480px) {
     .myheader-profileactions {
         visibility: hidden;
     }
@@ -26,9 +26,37 @@
 }
 
 
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
+    .myheader-profileactions {
+        visibility: hidden;
+    }
+    .myheader-searchinput {
+        visibility: hidden;
+    }
+    .myheader-div {
+        width: 100vw;
+        height: 20vh;
+        /* background-color: thistle; */
+        box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        flex-wrap: row wrap;
+        box-sizing: border-box;
+    }
+    .myheader-profile-div {
+        /* background-color: teal; */
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .myheader-div {
         width: 100vw;
         height: 10vh;

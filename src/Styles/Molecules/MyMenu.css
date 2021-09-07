@@ -1,6 +1,31 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .mymenu-div {
+        background-color: #3D83FF;
+        border-radius: 100%;
+        width: 6vh;
+        height: 6vh;
+        display: block;
+        flex-direction: column;
+        left: 3vh;
+        position: absolute;
+        box-sizing: border-box;
+        top: 2vh;
+        background-image: url("/src/assets/static/menu/menu-icon-bold.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 3.75vh;
+    }
+    .mymenu-icon-div {
+        display: none;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .mymenu-div {
         background-color: #3D83FF;
         border-radius: 100%;
@@ -25,7 +50,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .mymenu-div {
         background-color: #3D83FF;
         width: 4vw;

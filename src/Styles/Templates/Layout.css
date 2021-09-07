@@ -1,6 +1,4 @@
-/* Mobile */
-
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
     .layout-children {
         width: auto;
         background-color: #F5F5FA;
@@ -11,10 +9,19 @@
     }
 }
 
+@media screen and (min-width:481px) and (max-width:760px) {
+    .layout-children {
+        width: auto;
+        background-color: #F5F5FA;
+        /* background-color: tomato; */
+        display: flex;
+        padding: 3.5vh 9.5vw 0 6vw;
+        flex-direction: column;
+        padding-bottom: 2vh;
+    }
+}
 
-/* Desktop */
-
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .layout-children {
         width: auto;
         margin-left: 3.5vw;

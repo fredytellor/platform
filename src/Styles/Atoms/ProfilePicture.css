@@ -1,10 +1,10 @@
 /* Mobile */
-@media(max-width:760px){
-    .profile-pic{
+
+@media screen and (max-width:480px) {
+    .profile-pic {
         top: 1.5vh;
-        left: 18vw;       
-        /* background-color: tomato; */
-        height: 7vh;    
+        left: 12vw;
+        height: 6.5vh;
         object-fit: contain;
         position: relative;
         transform: scale(1);
@@ -12,15 +12,38 @@
         cursor: pointer;
         align-self: flex-start;
     }
-    .profile-pic:hover{    
-        transform: scale(1.1); 
+    .profile-pic:hover {
+        transform: scale(1.1);
     }
-    
 }
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
+    .profile-pic {
+        top: 1.5vh;
+        left: 18vw;
+        /* background-color: tomato; */
+        height: 7vh;
+        object-fit: contain;
+        position: relative;
+        transform: scale(1);
+        transition: 0.5s;
+        cursor: pointer;
+        align-self: flex-start;
+    }
+    .profile-pic:hover {
+        transform: scale(1.1);
+    }
+}
+
+
 /* Desktop */
-@media(min-width:761px){
-    .profile-pic{
-        height: 7vh;    
+
+@media screen and (min-width:761px) {
+    .profile-pic {
+        height: 7vh;
         object-fit: contain;
         position: relative;
         transform: scale(1);
@@ -28,9 +51,7 @@
         cursor: pointer;
         align-self: center;
     }
-    
-    .profile-pic:hover{    
-        transform: scale(1.1); 
+    .profile-pic:hover {
+        transform: scale(1.1);
     }
-    
 }
