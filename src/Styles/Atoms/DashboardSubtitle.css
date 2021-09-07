@@ -1,6 +1,23 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .dashboardsubtitle-h1 {
+        font-size: 2.3vh;
+        font-family: "gotham-light";
+        /* background-color: violet; */
+        width: 85vw;
+        color: white;
+        bottom: 17vh;
+        padding-left: 11vw;
+        position: relative;
+        box-sizing: border-box;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .dashboardsubtitle-h1 {
         font-size: 2.6vh;
         font-family: "gotham-light";
@@ -16,7 +33,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .dashboardsubtitle-h1 {
         font-size: 2.6vh;
         font-family: "gotham-light";

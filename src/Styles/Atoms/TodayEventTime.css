@@ -1,6 +1,23 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .todayeventtime-div {
+        position: relative;
+        padding-left: 7.5vw;
+        padding-top: 12vh;
+        color: #9D9BB6;
+    }
+    .todayeventtime-span {
+        font-family: "gilroy";
+        font-size: 2vh;
+        font-weight: 900;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .todayeventtime-div {
         position: relative;
         padding-left: 7vw;
@@ -17,7 +34,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .todayeventtime-div {
         position: relative;
         padding-left: 7vw;

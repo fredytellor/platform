@@ -1,6 +1,25 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .todayeventtitle-div {
+        position: relative;
+        padding-left: 5vw;
+        margin-top: -1vh;
+        color: #192452;
+    }
+    .todayeventtitle-h2 {
+        font-family: "gilroy-bold";
+        font-size: 2.1vh;
+        /* margin-right: 10px; */
+        margin-left: 1vw;
+        font-weight: 900;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .todayeventtitle-div {
         position: relative;
         padding-left: 5vw;
@@ -19,7 +38,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .todayeventtitle-div {
         position: relative;
         padding-left: 6.5vw;

@@ -1,9 +1,28 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
     .todayeventcard-div {
         width: 40vw;
-        height: 26vh;
+        height: 23vh;
+        background-color: white;
+        box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.025);
+        border-radius: 10px;
+        /* box-sizing: border-box; */
+        position: relative;
+        display: block;
+        margin-bottom: 2.5vh;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
+    .todayeventcard-div {
+        width: 23.8vw;
+        height: 15vh;
         background-color: white;
         box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.025);
         border-radius: 10px;
@@ -11,14 +30,14 @@
         position: relative;
         display: block;
         margin-bottom: 2.5vh;
-        margin-left: 2vw;
+        right: -57vw;
     }
 }
 
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .todayeventcard-div {
         width: 23.8vw;
         height: 15vh;

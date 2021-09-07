@@ -1,6 +1,24 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .learningsubtitle-div {
+        position: absolute;
+        color: #9D9BB6;
+        display: block;
+        margin-left: 5.2vw;
+        margin-bottom: 5vh;
+    }
+    .span-learnignsubtitle {
+        font-family: "gilroy";
+        font-size: 2.9vw;
+        font-weight: 900;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .learningsubtitle-div {
         position: absolute;
         color: #9D9BB6;
@@ -18,7 +36,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .learningsubtitle-div {
         /* margin-top: 1.5vh;     */
         position: absolute;

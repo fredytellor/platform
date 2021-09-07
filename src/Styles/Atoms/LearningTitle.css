@@ -1,6 +1,20 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .learningtitle-h1 {
+        font-size: 2.2vh;
+        font-family: "gotham-medium";
+        font-weight: 50;
+        color: #103460;
+        font-weight: 600;
+        display: flex;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .learningtitle-h1 {
         font-size: 2.3vh;
         font-family: "gotham-medium";
@@ -14,7 +28,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .learningtitle-h1 {
         font-size: 2.8vh;
         font-family: "gotham-medium";

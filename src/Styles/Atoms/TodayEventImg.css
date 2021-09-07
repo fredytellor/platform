@@ -1,6 +1,25 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .todayeventimg-div {
+        /* background-color: turquoise; */
+    }
+    .todayeventimg-img {
+        height: 9vh;
+        width: 9vh;
+        left: 7vw;
+        top: 1.5vh;
+        z-index: 1;
+        object-fit: contain;
+        align-self: center;
+        position: absolute;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .todayeventimg-div {
         /* background-color: turquoise; */
     }
@@ -19,7 +38,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .todayeventimg-div {
         /* background-color: turquoise; */
     }

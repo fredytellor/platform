@@ -1,6 +1,16 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .events-activities-div {
+        margin-top: 0vh;
+        display: flex;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .events-activities-div {
         margin-top: 0vh;
         display: flex;
@@ -10,7 +20,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .events-activities-div {
         margin-top: -33vh;
     }

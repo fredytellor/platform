@@ -1,6 +1,20 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
+    .eventstopic-h2 {
+        color: #304E75;
+        font-family: "gotham-bold";
+        font-weight: 500;
+        margin-top: 4vh;
+        margin-left: 1vw;
+        font-size: 2vh;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
     .eventstopic-h2 {
         color: #304E75;
         font-family: "gotham-bold";
@@ -14,7 +28,7 @@
 
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .eventstopic-h2 {
         color: #304E75;
         font-family: "gotham-bold";
