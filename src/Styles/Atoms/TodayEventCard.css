@@ -21,8 +21,8 @@
 
 @media screen and (min-width:481px) and (max-width:760px) {
     .todayeventcard-div {
-        width: 23.8vw;
-        height: 15vh;
+        width: 40vw;
+        height: 25vh;
         background-color: white;
         box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.025);
         border-radius: 10px;
@@ -30,7 +30,8 @@
         position: relative;
         display: block;
         margin-bottom: 2.5vh;
-        right: -57vw;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
     }
 }
 

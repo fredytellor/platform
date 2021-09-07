@@ -1,6 +1,6 @@
 /* Mobile */
 
-@media(max-width:760px) {
+@media screen and (max-width:480px) {
     .events-div {
         display: flex;
         /* flex-direction: row; */
@@ -16,9 +16,28 @@
 }
 
 
+/* tablet */
+
+@media screen and (min-width:481px) and (max-width:760px) {
+    .events-div {
+        display: flex;
+        /* flex-direction: row; */
+        /* background-color: thistle; */
+        flex-wrap: wrap;
+    }
+    .eventssection-div {
+        display: block;
+    }
+    .eventssection-div-top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
 /* Desktop */
 
-@media(min-width:761px) {
+@media screen and (min-width:761px) {
     .events-div {
         display: block;
         flex-direction: column;
