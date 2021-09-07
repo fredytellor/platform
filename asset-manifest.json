@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/platform/static/css/main.d101534c.chunk.css",
+    "main.css": "/platform/static/css/main.1d870c55.chunk.css",
     "main.js": "/platform/static/js/main.d4b8dda4.chunk.js",
     "main.js.map": "/platform/static/js/main.d4b8dda4.chunk.js.map",
     "runtime-main.js": "/platform/static/js/runtime-main.a24b9eb3.js",
@@ -10,7 +10,7 @@
     "static/js/2.5466a111.chunk.js.map": "/platform/static/js/2.5466a111.chunk.js.map",
     "index.html": "/platform/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/platform/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.d101534c.chunk.css.map": "/platform/static/css/main.d101534c.chunk.css.map",
+    "static/css/main.1d870c55.chunk.css.map": "/platform/static/css/main.1d870c55.chunk.css.map",
     "static/js/2.5466a111.chunk.js.LICENSE.txt": "/platform/static/js/2.5466a111.chunk.js.LICENSE.txt",
     "static/media/index.css": "/platform/static/media/Nunito-Regular.09b2f37e.ttf",
     "static/media/Picture@3x.8627c5cf.png": "/platform/static/media/Picture@3x.8627c5cf.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.a24b9eb3.js",
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.5466a111.chunk.js",
-    "static/css/main.d101534c.chunk.css",
+    "static/css/main.1d870c55.chunk.css",
     "static/js/main.d4b8dda4.chunk.js"
   ]
 }
